@@ -1,4 +1,3 @@
-
 public class Intersecao<T> extends Conjunto{
 
     private Conjunto tConjunto;
