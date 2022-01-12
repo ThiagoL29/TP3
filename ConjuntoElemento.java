@@ -1,4 +1,5 @@
 public class ConjuntoElemento<T> extends Conjunto{
+    
     private final T valor;
     private final Conjunto<T> conjunto;
 
@@ -11,7 +12,4 @@ public class ConjuntoElemento<T> extends Conjunto{
     public Boolean contemElemento(Object elemento) {
         return elemento == valor || conjunto.contemElemento((T) elemento);
     }
-
-
-
 }
