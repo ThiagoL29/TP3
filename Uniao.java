@@ -11,6 +11,6 @@ public class Uniao<T> extends Conjunto{
 
     @Override
     public Boolean contemElemento(Object elemento) {
-        return (conjunto.contemElemento(elemento) || tConjunto.contemElemento(elemento));
+        return ((conjunto.contemElemento(elemento)) || (tConjunto.contemElemento(elemento)));
     }
 }
